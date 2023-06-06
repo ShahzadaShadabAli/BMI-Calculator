@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&display=swap');
+body {
+    background: #77A1D3 !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    font-family:Kaushan Script;
+    border: solid 0.5px white;
+    color: rgba(0, 0, 0, 0.553);
+    border-radius: 9px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.501);
+    padding: 30px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.702);
+    margin-top: 100px;
+}
+
+.butn{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    will-change: box-shadow,transform;
+    background: #FCFCFD;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    height: 48px;
+    padding: 0 32px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #36395a;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    float: right;
+    position: relative;
+    top: 100px;
+    right: 30px;
+}
+.butn:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    transform: translateY(-2px);
+}
+.butn:active{
+    box-shadow: inset 0px 3px 7px #d6d6e7;
+    transform: translateY(2px);
+}
+.guest-container {
+    border: solid 0.5px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 10px rgba(46, 46, 46, 0.268);
+    padding: 20px;
+    margin: 15px;
+}
+
+.digit {
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .butn {
+        transform: scale(0.8);
+        position: relative;
+        top: 30px;
+    }
+}
